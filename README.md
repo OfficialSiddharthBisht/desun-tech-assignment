@@ -4,6 +4,3 @@
 ```
 npm run json-server
 ```
-
-
-# desun-tech-assignment
