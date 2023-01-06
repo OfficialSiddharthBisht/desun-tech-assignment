@@ -1,0 +1,53 @@
+.homeContainer {
+    /* border: 1px solid red; */
+    width: 1250px;
+    margin: auto;
+}
+
+.loginDiv {
+    border: 1px solid rgb(29, 54, 54);
+    background-color: teal;
+}
+
+.homeBody {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.gameCard {
+    background-color: rgb(217, 252, 252);
+    border-radius: 10px;
+    padding: 7%;
+}
+
+.gameCard:hover {
+    background-color: rgb(103, 245, 245);
+}
+
+.imgDiv {
+    width: 80%;
+    margin: auto;
+    height: 60%;
+    background-color: rgb(217, 251, 251);
+    margin-top: 10%;
+}
+
+.imgDiv>img {
+    height: 100%;
+    width: 100%;
+}
+
+.addcart {
+    background-color: teal;
+    border-radius: 20%;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.addcart:hover {
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+}
